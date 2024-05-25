@@ -6,12 +6,12 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="karl-scheduler", # Replace with your own username
     version="0.0.1",
-    author="Shi Feng",
-    author_email="sjtufs@gmail.com",
+    author="",
+    author_email="",
     description="Scheduler for karl.qanta.org",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pinafore/fact-repetition",
+    url="",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
