@@ -220,7 +220,7 @@ def fret_board_figure(
         height=2000,
         title=f'User {user_id} with model {repetition_model}'
     )
-    save_chart_and_pdf(chart, '/fs/www-users/shifeng/files/fret')
+    save_chart_and_pdf(chart, '')
 
 
 # %%
