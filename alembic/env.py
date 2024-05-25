@@ -32,7 +32,7 @@ target_metadata = Base.metadata
 # ... etc.
 
 def get_url():
-    url = os.getenv("SQLALCHEMY_DATABASE_URL", "postgresql+psycopg2://mattshu@localhost:5432/karl-prod")
+    url = os.getenv("SQLALCHEMY_DATABASE_URL", "postgresql+psycopg2://[username]@localhost:5432/karl-prod")
     return url
 
 def run_migrations_offline() -> None:
