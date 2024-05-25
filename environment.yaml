@@ -6,4 +6,4 @@ dependencies:
   - psycopg2
   - flake8
   - vega-lite-cli
-prefix: /fs/clip-quiz/shifeng/anaconda3/envs/karl
+prefix: [INSERT]
