@@ -2,7 +2,7 @@
 name = "scheduler"
 version = "0.1.0"
 description = ""
-authors = ["ihsgnef <shifeng@cs.umd.edu>"]
+authors = [""]
 
 [tool.poetry.dependencies]
 python = "^3.9"
