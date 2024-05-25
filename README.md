@@ -28,7 +28,6 @@ Make sure to use `git-lfs` to pull the model checkpoints too alongside the code.
 1. After `poetry shell`, run `python -m karl.tests.test_scheduling_with_session`.
 
 ## `dotenv` file
-You need a `.env` file in the `karl` directory. Modify `CODE_DIR` as needed and change `shifeng` in `SQLALCHEMY_DATABASE_URL` to your user (check via `SELECT current_user;`). 
 Change `API_URL` to match with the `INTERFACE` variable in the app. You may also need to specify a password to your database url.
 ```
 MP_CONTEXT="fork"
