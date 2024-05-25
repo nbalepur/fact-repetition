@@ -17,7 +17,7 @@ n_topics = [40]
 min_df = [5]
 max_df = [0.5]
 args = [data, model, n_vocab, n_topics, min_df, max_df]
-cmd = '/fs/clip-quiz/shifeng/anaconda3/bin/python karl/lda.py --data {} --model {} --n_vocab {} --n_topics {} --min_df {} --max_df {}'
+cmd = '{INSERT} --data {} --model {} --n_vocab {} --n_topics {} --min_df {} --max_df {}'
 for d, m, v, t, mi, ma in itertools.product(*args):
     with open('scripts/build_lda.sh', 'w') as f:
         f.write(header)
