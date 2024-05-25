@@ -668,7 +668,7 @@ class KARLScheduler:
         if v_usercard.schedule_request_id is None or v_usercard.schedule_request_id != schedule_request_id:
             # new session/studyset
             # using schedule_request_id in place of studyset_id here since the 
-            # latter is created after the schedule request on Matthew's end
+            # latter is created after the schedule request on other end
             count_positive_session = count_negative_session = count_session = 0
             delta_session = previous_delta_session = previous_study_date_session = previous_study_response_session = None
             correct_on_first_try_session = None
