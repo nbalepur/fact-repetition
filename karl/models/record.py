@@ -25,7 +25,7 @@ class ScheduleRequest(Base):
 
 
 class StudyRecord(Base):
-    id = Column(String, primary_key=True, index=True)  # history_id / front_end_id provided by Matthew
+    id = Column(String, primary_key=True, index=True)  # history_id / front_end_id provided by
     debug_id = Column(String, ForeignKey(ScheduleRequest.id, ondelete='CASCADE'), index=True)
     studyset_id = Column(String, index=True)  # session id
     user_id = Column(String, ForeignKey(User.id, ondelete='CASCADE'), index=True)
@@ -46,7 +46,7 @@ class StudyRecord(Base):
 
 
 class TestRecord(Base):
-    id = Column(String, primary_key=True, index=True)  # history_id / front_end_id provided by Matthew
+    id = Column(String, primary_key=True, index=True)  # history_id / front_end_id provided by
     # debug_id = Column(String, ForeignKey(ScheduleRequest.id), index=True)  # test model doesn't create schedule requests, thus no schedule_request_id / debug_id
     studyset_id = Column(String, index=True)  # session id
     user_id = Column(String, ForeignKey(User.id, ondelete='CASCADE'), index=True)
