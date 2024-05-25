@@ -266,4 +266,4 @@ chart = alt.layer(
     ),
     columns=4,
 )
-save_chart_and_pdf(chart, '/fs/www-users/shifeng/files/sensitivity', to_pdf=True)
+save_chart_and_pdf(chart, '', to_pdf=True)
