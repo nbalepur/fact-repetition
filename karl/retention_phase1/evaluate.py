@@ -31,7 +31,7 @@ def evaluate(model_names=['distilbert', 'bert'], output_dir=f'{settings.CODE_DIR
     1. compare the empirical recall rate and the predicted one.
     '''
     # figures_dir = f'{settings.CODE_DIR}/figures_eval_all'
-    figures_dir = '/fs/www-users/shifeng/figures_eval_all'
+    figures_dir = ''
 
     prediction_by_model = {}
     for model_name in model_names:
